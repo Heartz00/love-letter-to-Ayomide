@@ -6,19 +6,19 @@ def main():
     
     # Video background
     # Set background image
-    main_bg_ext = "jpg"
-        
-    st.markdown(
-         f"""
-         <style>
-         .stApp {{
-             background: url(data:image/{main_bg_ext};base64,{base64.b64encode(open(bg1, "rb").read()).decode()});
-             background-size: cover
-         }}
-         </style>
-         """,
-         unsafe_allow_html=True
-     )
+   st.markdown(
+    """
+    <style>
+    .reportview-container {
+        background: url("https://drive.google.com/file/d/12s1Pztj96yk3_Fgy_WQ-wcQfRZQznhpa/view?usp=sharing")
+    }
+   .sidebar .sidebar-content {
+        background: url("https://drive.google.com/file/d/1uxWget3iqpndrZKamzV9nz0Alh7Lkhnt/view?usp=sharing")
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
     st.title("A Letter to Omo Adeyanju, aya nobody🙂")
 
