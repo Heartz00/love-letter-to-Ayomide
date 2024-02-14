@@ -6,18 +6,19 @@ def main():
     
     # Video background
     # Set background image
+    main_bg_ext = "png"
+        
     st.markdown(
-        """
-        <style>
-        body {
-            background-image: url(bg1.jpg;
-            background-size: cover;
-            background-position: center;
-        }
-        </style>
-        """,
-        unsafe_allow_html=True
-    )
+         f"""
+         <style>
+         .stApp {{
+             background: url(data:image/{main_bg_ext};base64,{base64.b64encode(open(bg1, "rb").read()).decode()});
+             background-size: cover
+         }}
+         </style>
+         """,
+         unsafe_allow_html=True
+     )
 
     st.title("A Letter to Omo Adeyanju, aya nobody🙂")
 
