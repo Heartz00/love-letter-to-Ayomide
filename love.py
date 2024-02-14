@@ -13,7 +13,7 @@ def main():
         background: url("https://drive.google.com/file/d/12s1Pztj96yk3_Fgy_WQ-wcQfRZQznhpa/view?usp=sharing")
     }
    .sidebar .sidebar-content {
-        background: url("https://drive.google.com/file/d/1uxWget3iqpndrZKamzV9nz0Alh7Lkhnt/view?usp=sharing")
+        background: url("https://drive.google.com/file/d/12s1Pztj96yk3_Fgy_WQ-wcQfRZQznhpa/view?usp=sharing")
     }
     </style>
     """,
