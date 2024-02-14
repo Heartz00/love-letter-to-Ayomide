@@ -10,10 +10,10 @@ def main():
     """
     <style>
     .reportview-container {
-        background: url("https://drive.google.com/file/d/12s1Pztj96yk3_Fgy_WQ-wcQfRZQznhpa/view?usp=sharing")
+        background: url("https://www.pinterest.com/pin/10273905391776401/")
     }
    .sidebar .sidebar-content {
-        background: url("https://drive.google.com/file/d/12s1Pztj96yk3_Fgy_WQ-wcQfRZQznhpa/view?usp=sharing")
+        background: url("https://www.pinterest.com/pin/10273905391776401/")
     }
     </style>
     """,
