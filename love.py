@@ -6,7 +6,7 @@ def main():
     
     # Video background
     # Set background image
-    main_bg_ext = "png"
+    main_bg_ext = "jpg"
         
     st.markdown(
          f"""
