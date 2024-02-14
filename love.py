@@ -4,6 +4,7 @@ from PIL import Image
 def main():
     st.set_page_config(page_title="Romantic Letter to My Crush", page_icon="❤️")
     image = Image.open('bg1.jpg')
+    st.image(image)
     # Video background
     # Set background image
     st.markdown(
