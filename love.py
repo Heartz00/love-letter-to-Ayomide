@@ -10,7 +10,7 @@ def main():
         """
         <style>
         body {
-            background-image: url(C:\\Users\\t\\Downloads\\letter to ayomide\\bg1.jpg;
+            background-image: url(bg1.jpg;
             background-size: cover;
             background-position: center;
         }
@@ -43,12 +43,12 @@ def main():
     )
 
     # Displaying additional pictures
-    st.image(Image.open("C:/Users/t/Downloads/letter to ayomide/IMG_20230626_153329_359.jpg"), caption="The day we both signed out", use_column_width=True)
-    st.image(Image.open("C:/Users/t/Downloads/letter to ayomide/IMG_20230523_113433_316.jpg"), caption="Big head was trying to kiss your cheek", use_column_width=True)
+    st.image(Image.open("IMG_20230626_153329_359.jpg"), caption="The day we both signed out", use_column_width=True)
+    st.image(Image.open("IMG_20230523_113433_316.jpg"), caption="Big head was trying to kiss your cheek", use_column_width=True)
  
     # Displaying additional videos
-    st.video("C:/Users/t/Downloads/letter to ayomide/post1.mp4", start_time=0)
-    st.video("C:/Users/t/Downloads/letter to ayomide/post this.mp4", start_time=0)
+    st.video("post1.mp4", start_time=0)
+    st.video("post this.mp4", start_time=0)
 
 if __name__ == "__main__":
     main()
